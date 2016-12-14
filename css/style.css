@@ -195,3 +195,26 @@ nav{
 .relative{
 	position: relative;
 }
+
+@media (max-width: 700px) {
+    .cover h1{
+		font-weight: 900;
+		font-size: 20px;
+		line-height: 1.2;
+		font-family: 'Lato', sans-serif;
+		text-transform: uppercase;
+		letter-spacing: 10px;
+		margin-bottom: 40px;
+		margin-top: 40px;
+		color: white;
+	}
+
+	.who{
+		margin-top: 0px;
+	}
+
+	.b-box{
+		margin-bottom: 0px;
+	}
+
+}
