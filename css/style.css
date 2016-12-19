@@ -1,11 +1,12 @@
-@import url('https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900');
-@import url('https://fonts.googleapis.com/css?family=Source+Code+Pro:300,400,700');
-@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,600');
+@import url('https://fonts.googleapis.com/css?family=Lato:400,700,900');
+@import url('https://fonts.googleapis.com/css?family=Ubuntu:300,400,700,900');
+
+
 
 
 body{
-	font-family: 'Source Code Pro', sans-serif;
-	/*background: #F5F5F5;*/
+	font-family: 'Ubuntu', sans-serif;
+	background: #FAFAFA;
 }
 
 .b-nm{
@@ -17,23 +18,45 @@ body{
 	text-align: center;
 }
 
+.contact{
+	border: 2px solid rgba(255,255,255,0.7);
+	border-radius: 15px;
+	color: white !important;
+	padding: 12px 60px;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	font-size: 10px;
+	transition: background-color 0.5s ease;
+}
+
+.contact:hover{
+	border: 2px solid #19B578;
+	background: #19B578;
+	color: white !important;
+	text-decoration: none;
+}
+
 .contacto{
-	border: 2px solid black;
+	border: 2px solid #19B578;
+	border-radius: 10px;
+	color: #19B578 !important;
+	transition: background-color 0.5s ease;
 }
 
 .contacto:hover{
-	border: 2px solid #19B578;
+	background: #19B578;
+	color: white !important;
 }
 
 .menu a{
 	padding: 10px 30px;
 	display: inline-block;
-	color: black;
+	color: #525252;
 	text-transform: uppercase;
-	font-size: 10px;
-	font-family: 'Lato', sans-serif;
+	font-size: 10.1px;
+	font-family: 'Ubuntu', sans-serif;
 	font-weight: 700;
-	letter-spacing: 2px;
+	letter-spacing: 1px;
 }
 
 .menu a:hover{
@@ -43,7 +66,7 @@ body{
 
 nav{
 	text-align: center;
-	background: black;
+	background: #424242;
 	padding: 10px;
 	color: white;
 	font-size: 12px;
@@ -53,17 +76,7 @@ nav{
 	width: 100%;
 	top: 0;
 	z-index: 10;
-	box-shadow: 0px 5px 3px rgba(0,0,0,0.2);
-}
-
-.title{
-	font-size: 30px;
-	line-height: 1.3;
-	margin: 0px;
-	font-family: 'Open Sans', sans-serif;
-	font-weight: 600;
-	color: white;
-	margin-bottom: 20px;
+	box-shadow: 0px 3px 10px rgba(0,0,0,0.2);
 }
 
 .hr{
@@ -77,27 +90,19 @@ nav{
 .who{
 	margin: 0px;
 	margin-top: 50px;
-}
-
-.whoimg{
-	background: url("../img/who.jpg") center center;
-	background-size: cover;
-	height: 300px;
+	margin-bottom: 50px;
 }
 
 .cover{
-	margin-top: 30px;
-	background: url("../img/cover.jpg") center center fixed;
+	margin-top: 37px;
+	margin-bottom: 30px;
+	background: url("../img/cover.jpg") center center;
 	background-size: cover;
-	/*background: #c1c1c1;*/
 	padding: 50px;
-	padding-top: 100px;
-	padding-bottom: 100px;
+	padding-top: 185px;
+	padding-bottom: 185px;
 	text-align: center;
-}
-
-.cover .container{
-	max-width: 700px;
+	border-bottom: 5px solid #424242;
 }
 
 .hcr{
@@ -111,56 +116,58 @@ nav{
 
 .cover h1{
 	font-weight: 900;
-	font-size: 40px;
-	line-height: 1.2;
+	font-size: 25px;
+	line-height: 1.3;
 	font-family: 'Lato', sans-serif;
+	/*font-family: 'Ubuntu', sans-serif;*/
 	text-transform: uppercase;
-	letter-spacing: 10px;
-	margin-bottom: 40px;
-	margin-top: 40px;
+	letter-spacing: 5px;
+	margin-bottom: 30px;
 	color: white;
 }
 
+.cover h1 > span{
+	/*text-shadow: 0px 0px 30px rgba(0,0,0,0.5);*/
+}
+
 .cover-desc{
-	max-width: 300px;
-	margin: 0 auto;
-	font-weight: 300;
-	font-size: 10px;
-	line-height: 1.6;
-	letter-spacing: 5px;
-	font-family: 'Source Code Pro', sans-serif;
-	text-transform: uppercase;
-	color: #23FFA9;
+	font-weight: 200;
+	font-size: 13px;
+	line-height: 1.5;
+	letter-spacing: 3px;
+	font-family: 'Ubuntu', sans-serif;
+	color: white;
+	/*opacity: 0.9;*/
+	margin-bottom: 45px;
+}
+
+.title{
+	font-size: 30px;
+	line-height: 1.3;
+	margin: 0px;
+	font-family: 'Ubuntu', sans-serif;
+	font-weight: 400;
+	color: #323232;
 	margin-bottom: 20px;
 }
 
-.cover-desc span{
-	/*background: black;*/
+.title span{
+	font-weight: 700;
+	color: #1CCF89;
 }
 
 .desc{
 	line-height: 1.7;
-	color: white;
+	color: #576366;
 	font-weight: 300;
-	font-size: 14px;
+	font-size: 15px;
 	opacity: 0.7;
+	font-family: 'Ubuntu', sans-serif;
+	letter-spacing: 0.3px;
 }
 
 .info-box{
-	padding: 40px 40px;
-	min-height: 250px;
-}
-
-.info-blue{
-	background: #076CF2;
-}
-
-.info-green{
-	background: #19B578;
-}
-
-.info-yellow{
-	background: #E8453B;
+	padding: 20px 40px;
 }
 
 .info-img{
@@ -168,28 +175,13 @@ nav{
 	margin: 0px;
 	background: url("../img/phone.jpg") center center;
 	background-size: cover;
-	height: 250px;
-}
-
-.info-img2{
-	padding: 60px;
-	margin: 0px;
-	background: url("../img/ai1.jpg") center center;
-	background-size: cover;
-	height: 250px;
-}
-
-.info-img3{
-	padding: 60px;
-	margin: 0px;
-	background: url("../img/sof1.jpg") center center;
-	background-size: cover;
-	height: 250px;
+	height: 300px;
+	box-shadow: 5px 10px 20px rgba(0,0,0,0.2);
 }
 
 .b-box{
-	box-shadow: 0px 20px 20px rgba(0,0,0,0.3);
 	margin-bottom: 20px;
+	margin-top: 40px;
 }
 
 .relative{
@@ -201,7 +193,6 @@ nav{
 		font-weight: 900;
 		font-size: 20px;
 		line-height: 1.2;
-		font-family: 'Lato', sans-serif;
 		text-transform: uppercase;
 		letter-spacing: 10px;
 		margin-bottom: 40px;
