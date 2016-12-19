@@ -28,7 +28,7 @@ body{
 }
 
 .contact:hover{
-	background: #121212;
+	background: #626262;
 	text-decoration: none;
 }
 
@@ -134,7 +134,6 @@ nav{
 
 .cover .filter{
 	padding: 190px 20px;
-	background: rgba(0,190,190,0.7);
 }
 
 .hcr{
