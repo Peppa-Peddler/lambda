@@ -30,7 +30,7 @@ body{
 	font-size: 14px;
 	transition: background-color 0.5s ease;
 	box-shadow: 0px 10px 35px rgba(0,0,0,0.2);
-	font-weight: 400;
+	font-weight: 600;
 }
 
 .contact:hover{
@@ -48,7 +48,7 @@ body{
 	margin-bottom: 15px;
 }
 
-.otherbox .desc{
+.desc{
 	margin-bottom: 40px;
 }
 
@@ -129,7 +129,7 @@ nav{
 }
 
 .filter{
-	background: rgba(0,140,200,0.9);
+	background: rgba(70,100,210,0.9);
 	padding: 150px 20px;
 }
 
@@ -144,8 +144,8 @@ nav{
 }
 
 .cover .filter{
-	padding: 190px 90px;
-	background: rgba(70,100,210,0.75);
+	padding: 150px 90px;
+	background: rgba(70,100,210,0.70);
 }
 
 .hcr{
@@ -197,38 +197,43 @@ nav{
 }
 
 .title{
-	font-size: 40px;
-	line-height: 1.2;
+	font-size: 25px;
+	line-height: 1.35;
 	margin: 0px;
-	font-weight: 400;
-	/*color: #323232;*/
-	letter-spacing: -1.5px;
+	font-weight: 700;
+	color: #3961B6;
+	letter-spacing: -0.5px;
 	margin-bottom: 20px;
 }
 
 .title span{
-	color: #008CC8;
+	/*color: #424242;*/
 }
 
 .desc{
 	line-height: 1.5;
 	font-weight: 400;
-	font-size: 15px;
-	/*color: #34495e;*/
-	color: #323232;
+	font-size: 16px;
+	color: #424242;
+	/*color: #3961B6;*/
 }
 
 .info-box{
-	padding: 60px 70px;
-	padding-right: 20px;
+	padding: 60px 60px;
 }
 
 .info-img{
-	padding: 60px;
 	margin: 0px;
-	background: url("../img/phone.jpg") center center;
+	background: url("../img/lady.jpg") center center;
 	background-size: cover;
-	height: 400px;
+	color: white;
+	text-align: center;
+	font-size: 20px;
+	font-weight: 400;
+}
+
+.info-img p{
+	margin: 0 20px;
 }
 
 .phrase{
@@ -252,22 +257,26 @@ nav{
 }
 
 .b-box{
-	margin-bottom: 40px;
+	margin-bottom: 50px;
+	margin-top: 20px;
+	border-bottom: 1px solid rgba(0,0,0,0.2);
+	padding-bottom: 50px;
 }
 
 .color-box{
 	background: #31BD7E;
 	background: #008CC8;
+	background: #3961B6;
 	min-height: 350px;
-	padding: 65px 50px;
+	padding: 90px 60px;
 }
 
 .color-t{
 	color: white;
 	font-weight: 400;
-	font-size: 25px;
-	letter-spacing: 0.5px;
-	margin-bottom: 20px;
+	font-size: 20px;
+	letter-spacing: -0.5px;
+	margin-bottom: 30px;
 	line-height: 1.5;
 }
 
@@ -299,7 +308,7 @@ nav{
 
 .team{
 	padding: 100px 30px;
-	background: #008CC8;
+	background: #3961B6;
 }
 
 .team .container{
