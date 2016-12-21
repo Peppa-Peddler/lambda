@@ -355,10 +355,10 @@ small{
 
 .footer{
 	padding: 70px 0px;
-	opacity: 0.7;
-	line-height: 1.6;
-	font-weight: 300;
-	letter-spacing: 1px;
+	opacity: 0.9;
+	line-height: 1.4;
+	font-weight: 400;
+	/*letter-spacing: 1px;*/
 }
 
 @media (max-width: 900px) {
