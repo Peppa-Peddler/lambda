@@ -14,12 +14,6 @@ body{
 	padding: 0px;
 }
 
-.menu{
-	margin: 10px 0px;
-	text-align: center;
-	margin-bottom: 100px;
-}
-
 .contact{
 	border-radius: 15px;
 	color: white !important;
@@ -61,28 +55,35 @@ a{
 }
 
 .contacto{
-	border: 2px solid #008CC8;
-	border-radius: 10px;
-	color: #008CC8 !important;
+	border: 2px solid #424242;
+	border-radius: 15px;
+	color: #424242 !important;
 	transition: background-color 0.5s ease;
-	padding: 10px 30px;
+	padding: 6px 50px !important;
 	font-weight: 600 !important;
+	margin-left: 10px;
 }
 
 .contacto:hover{
-	background: #008CC8;
+	background: #424242;
 	color: white !important;
 	text-decoration: none;
 }
 
+.menu{
+	margin: 10px 0px;
+	text-align: right;
+	margin-bottom: 100px;
+}
+
 .menu a{
-	padding: 10px 40px;
+	padding: 10px 15px;
 	display: inline-block;
 	/*text-transform: uppercase;*/
-	font-size: 13.5px;
+	font-size: 14px;
 	font-weight: 600;
-	color: #626262;
-	letter-spacing: 0.5px;
+	color: #727272;
+	letter-spacing: -0.2px;
 }
 
 .menu a:hover{
@@ -434,17 +435,26 @@ small{
 
 	.cover{
 		text-align: left;
+		margin-bottom: 0px;
+	}
+
+	.cover .contact{
+		font-size: 15px;
+		padding: 10px 0px;
+	}
+
+	.cover .cover-desc{
+		margin-top: 30px;
 	}
 
 	.cover .filter{
-		padding-top: 120px;
-		padding-bottom: 120px;
+		padding: 100px 25px;
 	}
 
 	.cover h1{
-		font-size: 30px;
+		font-size: 32px;
 		line-height: 1.5;
-		margin-bottom: 20px;
+		margin-bottom: 30px;
 	}
 
 	.who{
